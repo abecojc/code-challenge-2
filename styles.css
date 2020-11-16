@@ -9,7 +9,7 @@
     color: #4B4B4B;
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .nav-position > p:hover {
@@ -35,4 +35,16 @@
 abbr {
     cursor: pointer;
     text-decoration: none;
+    border-radius: 50%;
+    border-color:  gray;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+    background: blue;
+}
+
+#center img {
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
 }
