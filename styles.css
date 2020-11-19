@@ -17,6 +17,8 @@
     cursor: pointer;
 }
 
+
+
 #left {
     width: 120px;
 }
@@ -27,7 +29,7 @@
 
 #right img {
     border-radius: 50%;
-    margin-top: 10px;
+    /*margin-top: 5px;*/
     width: 25px;
     height: 25px;
 }
@@ -37,14 +39,24 @@ abbr {
     text-decoration: none;
     border-radius: 50%;
     border-color:  gray;
-    margin-top: 5px;
+    /*margin-top: 10px;*/
     width: 25px;
     height: 25px;
-    background: blue;
+
 }
 
-#center img {
+#centers img {
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 120px;
+}
+#center p{
+    background: #ccc;
+    border-radius: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+center a{
+    mso-padding-between: 5px;
 }
