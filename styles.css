@@ -1,6 +1,7 @@
 #nav {
     display: flex;
     justify-content: space-between;
+
 }
 
 .nav-position {
@@ -10,53 +11,81 @@
     font-family: sans-serif;
     font-weight: 400;
     font-size: 14px;
+    /*background: aqua;*/
 }
 
 .nav-position > p:hover {
     text-decoration: underline;
     cursor: pointer;
+
 }
-
-
 
 #left {
     width: 120px;
 }
 
+
 #right {
     width: 200px;
+
 }
 
 #right img {
+
     border-radius: 50%;
-    /*margin-top: 5px;*/
-    width: 25px;
-    height: 25px;
+    margin-top: -5px;
+    /*width: 25px;*/
+    height: 30px;
 }
 
-abbr {
-    cursor: pointer;
-    text-decoration: none;
+#abbr {
     border-radius: 50%;
-    border-color:  gray;
-    /*margin-top: 10px;*/
-    width: 25px;
-    height: 25px;
 
 }
 
-#centers img {
+#center {
     display: flex;
+    flex-direction: column;
+    /*justify-content: space-evenly;*/
     align-items: center;
-    margin-top: 120px;
+
 }
+
 #center p{
-    background: #ccc;
+
     border-radius: 10%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+
+}
+
+/*#bottom {*/
+
+/*    display: flex;*/
+
+/*    justify-content: space-between;*/
+/*    */
+/*}*/
+
+
+#bottom p{
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    background: gray;
+    padding: 10px;
+    border-radius: 3%;
+    margin: 5px;
+    box-shadow: #4B4B4B;
+
 }
-center a{
-    mso-padding-between: 5px;
+
+#center form input{
+    border-color: #4B4B4B;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 15px 100px;
+    border-radius: 10% 10%;
 }
