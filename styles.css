@@ -17,6 +17,8 @@
 .nav-position > p:hover {
     text-decoration: underline;
     cursor: pointer;
+    box-shadow: #4B4B4B;
+
 
 }
 
@@ -46,7 +48,7 @@
 #center {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-evenly;*/
+
     align-items: center;
 
 }
@@ -62,30 +64,55 @@
 
 }
 
-/*#bottom {*/
-
-/*    display: flex;*/
-
-/*    justify-content: space-between;*/
-/*    */
-/*}*/
 
 
 #bottom p{
     display: flex;
     justify-content: space-between;
-    background: gray;
+    background: lightgray;
     padding: 10px;
-    border-radius: 3%;
+    border-radius: 5%;
     margin: 5px;
-    box-shadow: #4B4B4B;
+    border-color: black;
 
 }
 
-#center form input{
-    border-color: #4B4B4B;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 15px 100px;
-    border-radius: 10% 10%;
+.quest input{
+    display: block;
+    position: relative;
+
+    border-color: lightgray;
+    margin-left: 5px;
+    margin-right: auto;
+    padding: 15px 150px;
+    border-radius:15% 15%;
+
+}
+.quest img{
+
+    position: absolute;
+    height: 25px;
+    margin: 12px 15px -30px -40px;
+
+}
+.quest {
+    display: inline-flex;
+}
+
+.na-position{
+    display: flex;
+    justify-content: space-evenly;
+    color: #4B4B4B;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.na-position > p:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+
 }
